@@ -1,0 +1,17 @@
+﻿@model List<Recepie>
+
+<section class="recepieContainer container">
+    <h1>Här är dina recept!</h1>
+
+    <a href="/Recepie/CreateRecepie" class="addRecepieButton btn">Klicka här för att lägga till ett recept</a>
+
+    <section class="recepieSection section">
+        <ul>
+            @foreach (Recepie recepie in Model)
+            {
+                <li><a href="Recepie/ShowRecepie/@recepie.Id">@recepie.RecepieName</a></li>
+            }
+        </ul>
+    </section>
+
+</section>

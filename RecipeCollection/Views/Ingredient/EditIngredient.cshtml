@@ -1,0 +1,14 @@
+﻿@model Ingredient
+
+<section class="container editIngredientContainer">
+    <h1>Redigera ingrediens</h1>
+
+    <form action="/Ingredient/Edit/@Model.Id" method="post">
+        <p>Namn:</p>
+        <input type="text" name="IngredientName" value="@Model.IngredientName" />
+        <p class="tasteHeader">Smak:</p>
+        <input type="text" name="Taste" value="@Model.Taste" /> <br />
+
+        <button class="btn">Spara</button>
+    </form>
+</section>

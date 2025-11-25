@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RecipeCollection
+build_property.RootNamespace = RecipeCollection
+build_property.ProjectDir = D:\Nybörjare till Fullstack\Grundläggande programmering\Certifieringsuppgift\RecipeCollection\RecipeCollection\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Nybörjare till Fullstack\Grundläggande programmering\Certifieringsuppgift\RecipeCollection\RecipeCollection
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Ingredient/CreateIngredient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxDcmVhdGVJbmdyZWRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Ingredient/EditIngredient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxFZGl0SW5ncmVkaWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Ingredient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Ingredient/ShowIngredient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxTaG93SW5ncmVkaWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Recepie/CreateRecepie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXBpZVxDcmVhdGVSZWNlcGllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Recepie/EditRecepie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXBpZVxFZGl0UmVjZXBpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Recepie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXBpZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Recepie/ShowRecepie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXBpZVxTaG93UmVjZXBpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nybörjare till Fullstack/Grundläggande programmering/Certifieringsuppgift/RecipeCollection/RecipeCollection/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u9mf7ix9wr

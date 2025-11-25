@@ -1,0 +1,14 @@
+﻿@model List<Ingredient>
+
+<section class="container">
+    <h1>Här kan du se dina ingredienser:</h1>
+
+    <a href="/Ingredient/CreateIngredient" class="btn">Klicka här för att lägga till ingredienser</a>
+    <ul>
+        @foreach (Ingredient ingredient in Model)
+        {
+            <li><a href="Ingredient/ShowIngredient/@ingredient.Id">@ingredient.IngredientName</a></li>
+        }
+    </ul>
+    
+</section>

@@ -1,0 +1,99 @@
+﻿@model IngredientModel
+
+<section class="container editRecepieContainer">
+    <h1>Redigera recept</h1>
+
+
+    <form action="/Recepie/Edit/@Model.Id" method="post">
+
+        <p>Namn:</p>
+        <input type="text" name="RecepieName" value="@Model.RecepieName" />
+
+        <p class="ingredientHeader">Ingredienser:</p>
+
+        @for (int i = 0; i < Model.Ingredients.Count; i++)
+        {
+            @Html.CheckBoxFor(model => model.Ingredients[i].IsChecked)
+            <label>@Model.Ingredients[i].IngredientName</label>
+            @Html.HiddenFor(Model => Model.Ingredients[i].Id)
+            @Html.HiddenFor(Model => Model.Ingredients[i].IngredientName)
+            @Html.HiddenFor(Model => Model.Ingredients[i].Taste)
+            <br />
+        }
+
+
+        <button class="btn">Spara recept</button>
+
+    </form>
+</section>
+
+
+
+
+@* <form action="/Recepie/Edit/@Model[0].Recepie.Id" method="post">
+
+    <p>Namn:</p>
+    <input type="text" name="RecepieName" value="@Model[0].Recepie.RecepieName" />
+
+    <p>Ingredienser:</p>
+
+    @foreach (EditRecepieModel index in Model)
+    {
+        for (int i = 0; i < index.Ingredients.Count; i++)
+        {
+            @Html.CheckBoxFor(model => index.Ingredients[i].IsChecked)
+            <label>@index.Ingredients[i].IngredientName</label>
+            @Html.HiddenFor(Model => index.Ingredients[i].Id)
+            @Html.HiddenFor(Model => index.Ingredients[i].IngredientName)
+            @Html.HiddenFor(Model => index.Ingredients[i].Taste)
+            <br />
+        }
+    }
+
+
+    <button>Spara recept</button>
+
+</form> *@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @model Recepie *@
+
+@* <h1>Redigera recept</h1> *@
+
+@* <form action="/Recepie/Edit/@Model.Id" method="post">
+    <p>Namn:</p>
+    <input type="text" name="IngredientName" value="@Model.RecepieName" />
+
+    @for (int i = 0; i < Model.Ingredients.Count; i++)
+    {
+        @Html.CheckBoxFor(model => model.Ingredients[i].IsChecked)
+        <label>@Model.Ingredients[i].IngredientName</label>
+        @Html.HiddenFor(Model => Model.Ingredients[i].Id)
+        @Html.HiddenFor(Model => Model.Ingredients[i].IngredientName)
+        @Html.HiddenFor(Model => Model.Ingredients[i].Taste)
+        <br />
+    }
+   
+    <button>Spara</button>
+</form> *@

@@ -1,0 +1,21 @@
+﻿@model Recepie
+
+<section class="container">
+    <h1>Namn: @Model.RecepieName</h1>
+    <h2>Ingredienser:</h2>
+
+    <ul>
+        @for (int i = 0; i < Model.RecepieIngredients.Count; i++)
+        {
+            <li>@Model.RecepieIngredients[i].IngredientName</li>
+        }
+    </ul>
+
+    <section class="choiceContainer">
+        <a href="/Recepie/EditRecepie/@Model.Id" class="btn">Regigera recept</a>
+        <form action="/Recepie/DeleteRecepie/@Model.Id" method="post">
+            <button class="btn">Ta bort recept</button>
+        </form>
+    </section>
+
+</section>

@@ -1,0 +1,13 @@
+﻿@model Ingredient
+
+<section class="container showIngredientContainer">
+    <h1>Namn: @Model.IngredientName</h1>
+    <h2>Smak: @Model.Taste</h2>
+
+    <section class="choiceContainer">
+        <a href="/Ingredient/EditIngredient/@Model.Id" class="btn">Regigera ingrediens</a>
+        <form action="/Ingredient/DeleteIngredient/@Model.Id" method="post">
+            <button class="btn">Ta bort ingrediens</button>
+        </form>
+    </section>
+</section>

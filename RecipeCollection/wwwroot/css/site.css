@@ -1,0 +1,165 @@
+* {
+    color: rgb(33, 37, 41) !important;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #e6e6e6;
+}
+
+body header {
+    background-color: #ebebe0;
+}
+
+body .footer {
+    border-top: 1px solid grey !important;
+}
+
+body header a {
+    color: rgb(33, 37, 41);
+}
+
+body header li:hover {
+    text-decoration: underline;
+}
+
+body h1 {
+    font-size: 30px;
+}
+
+body h2 {
+    font-size: 22px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #a5a573;
+    color: white;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 8px grey;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #6d6d46;
+    color: white !important;
+}
+
+.container li {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.container li a {
+text-decoration: none;
+}
+
+.container li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+/* -------------------------- RECEPIE -------------------------------*/
+
+.createRecepieContainer .btn, .editRecepieContainer .btn {
+    margin-top: 10px;
+    padding: 4px 8px;
+}
+
+.container .choiceContainer {
+    display: flex;
+    width: fit-content;
+}
+
+.container .choiceContainer a {
+    margin-right: 10px;
+}
+
+.editRecepieContainer p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.editRecepieContainer .ingredientHeader {
+    margin-top: 20px;
+}
+
+
+
+
+/* -------------------------- INGREDIENTS -------------------------------*/
+
+.createIngredientSection form input,
+.createIngredientSection form button {
+    margin-top: 10px;
+}
+
+.createIngredientSection form .btn {
+    padding: 4px 8px;
+}
+
+.container .choiceContainer {
+    display: flex;
+    width: fit-content;
+}
+
+.container .choiceContainer a {
+    margin-right: 10px;
+}
+
+.showIngredientContainer .choiceContainer {
+    margin-top: 20px;
+}
+
+.editIngredientContainer p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.editIngredientContainer .tasteHeader {
+    margin-top: 20px;
+}
+
+.editIngredientContainer .btn {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
